@@ -3,14 +3,14 @@ import Head from "next/head";
 import React from "react";
 import Page from "../src/components/Page";
 import Layout from "../src/layouts";
-import { HomeBanner } from "../src/sections";
 import {
+   HomeBanner,
+   HomeService,
    HomeAdfolksApproach,
    HomeBusinessBenefits,
    HomeCertification,
    HomeKeyIndicators,
    HomeModernisation,
-   HomeService,
    HomeTestimonials,
 } from "../src/sections";
 

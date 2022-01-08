@@ -30,7 +30,7 @@ const Header = () => {
       <header>
          <div className="w-full">
             <div className="flex items-center w-full h-20">
-               <div className="flex items-center justify-between w-full mx-20">
+               <div className="flex items-center justify-between w-full mx-8 md:mx-20 ">
                   <div className="flex items-center justify-center flex-shrink-0 ">
                      <img src="/logo/opsbrew.png" alt="opsbrew logo" className="w-32 h-9" />
                   </div>
@@ -49,7 +49,7 @@ const Header = () => {
                   <button
                      onClick={() => setIsOpen(!isOpen)}
                      type="button"
-                     className="inline-flex items-center justify-center p-2 text-white bg-blue-600 rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+                     className="inline-flex items-center justify-center p-2 text-black rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                      aria-controls="mobile-menu"
                      aria-expanded="false"
                   >
@@ -113,15 +113,16 @@ const Header = () => {
          >
             {(ref) => (
                <div className="md:hidden" id="mobile-menu">
-                  <div ref={ref} className="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                  <div ref={ref} className="flex flex-col items-center px-2 pt-2 pb-16 space-y-1 sm:px-3">
                      {menuItems.map((item) => (
                         <a
                            href="#"
-                           className="block px-3 py-2 text-base font-medium rounded-md text-primary-500 hover:bg-gray-700"
+                           className="block px-3 py-2 text-base font-medium rounded-md text-primary-500 hover:bg-primary-500 hover:w-32 hover:text-center hover:text-white"
                         >
                            {item.label}
                         </a>
                      ))}
+                     <a className="w-32 text-center text-orange-600 border border-orange-600 loginBtn">Login</a>
                   </div>
                </div>
             )}
