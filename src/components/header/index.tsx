@@ -114,8 +114,9 @@ const Header = () => {
             {(ref) => (
                <div className="md:hidden" id="mobile-menu">
                   <div ref={ref} className="flex flex-col items-center px-2 pt-2 pb-16 space-y-1 sm:px-3">
-                     {menuItems.map((item) => (
+                     {menuItems.map((item, key) => (
                         <a
+                           key={key}
                            href="#"
                            className="block px-3 py-2 text-base font-medium rounded-md text-primary-500 hover:bg-primary-500 hover:w-32 hover:text-center hover:text-white"
                         >
