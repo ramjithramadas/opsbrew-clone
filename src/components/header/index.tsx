@@ -117,7 +117,7 @@ const Header = () => {
                      {menuItems.map((item) => (
                         <a
                            href="#"
-                           className="block px-3 py-2 text-base font-medium rounded-md text-primary hover:bg-gray-700"
+                           className="block px-3 py-2 text-base font-medium rounded-md text-primary-500 hover:bg-gray-700"
                         >
                            {item.label}
                         </a>
