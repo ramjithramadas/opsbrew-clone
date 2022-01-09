@@ -7,7 +7,7 @@ const TechnologyPartner = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 bg-primary-500 rounded-2xl">
          <div className="relative flex flex-col items-start justify-center px-8 pt-8 md:p-16">
             <div className="my-4">
-               <button className="p-1 text-base font-semibold bg-white text-primary-500 w-28 rounded-2xl w-34">
+               <button className="p-1 text-base font-semibold bg-white text-primary-500 w-28 rounded-2xl w-34 hover:animate-bounce">
                   Our Partner
                </button>
             </div>

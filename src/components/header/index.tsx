@@ -35,13 +35,17 @@ const Header = () => {
                      <img src="/logo/opsbrew.png" alt="opsbrew logo" className="w-32 h-9" />
                   </div>
                   <div className="hidden md:block">
-                     <div className="flex items-baseline ml-10 space-x-4 font-sans text-font-500">
+                     <div className="flex items-baseline ml-10 space-x-4 font-sans text-font-500 ">
                         {menuItems.map((item, key) => (
                            <Link href="/" key={key}>
-                              <a>{item.label}</a>
+                              <a href="#" className=" hover:text-navBtn">
+                                 {item.label}
+                              </a>
                            </Link>
                         ))}
-                        <a className="text-orange-600 border border-orange-600 loginBtn">Login</a>
+                        <a className="w-24 text-center transition duration-500 ease-out border text-navBtn border-navBtn hover:text-white hover:bg-navBtn loginBtn">
+                           Login
+                        </a>
                      </div>
                   </div>
                </div>
@@ -94,7 +98,7 @@ const Header = () => {
 
          <Transition
             show={isOpen}
-            enter="transition ease-out duration-250 transform"
+            enter="transition ease-out duration-500 transform"
             enterFrom="opacity-0 scale-95"
             enterTo="opacity-100 scale-100"
             leave="transition ease-in duration-75 transform"

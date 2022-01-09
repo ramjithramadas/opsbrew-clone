@@ -12,6 +12,7 @@ module.exports = {
                300: "#535E5C",
                500: "#03221C",
             },
+            navBtn: "#FF1887",
          },
          fontFamily: {
             body: ["Montserrat"],
