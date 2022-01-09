@@ -1,10 +1,11 @@
+import EllipseDots from "../components/common/EllipseDots";
 import { homeBannerImg } from "../constants/svgs";
 
 const HomeBanner = () => {
    return (
       <section>
          <div className="grid grid-cols-1 gap-4 bg-primary-500 md:grid-cols-2">
-            <div className="pt-10 pl-10 md:p-20">
+            <div className="relative pt-10 pl-10 md:p-20">
                <button className="flex items-center h-12 p-2 bg-white rounded-md w-38">
                   <img src="/logo/opsbrew.png" alt="opsbrew logo" className="w-32 h-9" />
                </button>
@@ -12,6 +13,9 @@ const HomeBanner = () => {
                   <p className="mt-3">Application Modernization:</p>
                   <p className="mt-3">Transforming Business</p>
                   <p className="mt-3">Application Modernization:</p>
+               </div>
+               <div className="absolute left-28 top-16">
+                  <EllipseDots />
                </div>
                <div className="my-8">
                   <p className="max-w-lg text-xs text-white sm:leading-7 font-body sm:text-sm">

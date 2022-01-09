@@ -1,5 +1,6 @@
 import { Carousel } from "react-responsive-carousel";
 import CloudProviders from "../common/CloudProviders";
+import EllipseDots from "../common/EllipseDots";
 
 const TechnologyPartner = () => {
    return (
@@ -10,13 +11,7 @@ const TechnologyPartner = () => {
                   Our Partner
                </button>
             </div>
-            <div>
-               <div className="ellipse1"></div>
-               <div className="ellipse2"></div>
-               <div className="ellipse3"></div>
-               <div className="ellipse4"></div>
-               <div className="ellipse5"></div>
-            </div>
+            <EllipseDots />
             <div className="text-lg font-semibold text-white md:my-3 font-body sm:text-xl md:text-3xl">
                <p>Technology Partner</p>
             </div>

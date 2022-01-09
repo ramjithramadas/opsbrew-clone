@@ -92,19 +92,9 @@ const Header = () => {
             </div>
          </div>
 
-         {/* <div className="md:hidden" id="mobile-menu">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-white sm:px-3">
-               {menuItems.map((item) => (
-                  <Link href="/">
-                     <a>{item.label}</a>
-                  </Link>
-               ))}
-            </div>
-         </div> */}
-
          <Transition
             show={isOpen}
-            enter="transition ease-out duration-100 transform"
+            enter="transition ease-out duration-250 transform"
             enterFrom="opacity-0 scale-95"
             enterTo="opacity-100 scale-100"
             leave="transition ease-in duration-75 transform"
