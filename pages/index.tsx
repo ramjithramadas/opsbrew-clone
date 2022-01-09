@@ -28,7 +28,7 @@ export default function HomePage() {
             <meta property="og:image" content={metaLogo} key="og:image" />
             <meta property="og:url" content={`${process.env.HOST_URL}`} key="og:url" />
             <meta property="og:image:width" content="600" key="og:image:width" />
-            <meta property="og:image:height" content="600" key="og:image:height" />
+            <meta property="og:image:height" content="400" key="og:image:height" />
             <meta property="og:image:alt" content="logo" key="og:image:alt" />
             <meta
                property="og:description"
