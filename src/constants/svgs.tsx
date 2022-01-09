@@ -199,3 +199,23 @@ export const azureLogo = (
       </defs>
    </svg>
 );
+
+export const backgroundEllipse = (
+   <svg width="532" height="361" viewBox="0 0 532 361" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle opacity="0.1" cx="100.394" cy="345.394" r="10.3942" fill="white" fill-opacity="0.15" />
+      <ellipse opacity="0.4" cx="298" cy="56.5" rx="7" ry="7.5" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.2" cx="409.248" cy="253.248" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.3" cx="528.248" cy="33.2482" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle cx="79.2482" cy="231.248" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.3" cx="128.248" cy="100.248" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.1" cx="219.248" cy="3.24818" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle cx="186.248" cy="231.248" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle cx="246.248" cy="120.248" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.2" cx="48.2482" cy="3.24818" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle cx="72.6271" cy="77.1825" r="3.24818" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.6" cx="4.87226" cy="152.872" r="4.87226" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.7" cx="208.724" cy="91.7993" r="4.87226" fill="white" fill-opacity="0.15" />
+      <circle opacity="0.4" cx="247.872" cy="355.872" r="4.87226" fill="white" fill-opacity="0.15" />
+      <circle cx="163.872" cy="147.872" r="4.87226" fill="white" fill-opacity="0.15" />
+   </svg>
+);
