@@ -5,3 +5,26 @@
 .loginBtn {
    @apply px-3 py-2 text-xs font-bold tracking-wider rounded-full cursor-pointer;
 }
+
+/* --- wave --- */
+.custom-shape-divider-bottom {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   height: 300px;
+}
+
+.custom-shape-divider-bottom svg {
+   position: relative;
+   display: block;
+   width: calc(167% + 1.3px);
+   height: 300px;
+   transform: rotateY(0deg);
+}
+
+.custom-shape-divider-bottom .shape-fill {
+   fill: #eceff8;
+}

@@ -1,4 +1,5 @@
-import CloudProviders from "./CloudProviders";
+import { Carousel } from "react-responsive-carousel";
+import CloudProviders from "../common/CloudProviders";
 
 const TechnologyPartner = () => {
    return (
@@ -14,7 +15,7 @@ const TechnologyPartner = () => {
                <p>Technology Partner</p>
             </div>
             <div className="my-4">
-               <p className="text-xs text-white font-body sm:text-sm">
+               <p className="w-64 text-xs text-white font-body sm:text-sm md:w-96">
                   Partnership is a form of business organization wherein two or more persons join together in order
                   to carry out business.
                </p>

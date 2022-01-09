@@ -10,8 +10,8 @@ function ReusableServiceCard({ title, content }: Props) {
       <div className="flex w-68">
          <div className="w-12">{commonIcon}</div>
          <div className="py-4 pl-4">
-            <p className="text-lg font-bold ">{title}</p>
-            <p className="py-4 text-base">{content}</p>
+            <p className="text-lg font-bold w-60">{title}</p>
+            <p className="w-48 py-4 text-base">{content}</p>
          </div>
       </div>
    );

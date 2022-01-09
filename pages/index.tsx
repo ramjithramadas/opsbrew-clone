@@ -21,16 +21,16 @@ import {
 export default function HomePage() {
    return (
       <Layout variant="main">
-         {/* <Page title="Opsbrew"> */}
-         <HomeBanner />
-         <HomeService />
-         {/* <HomeModernisation />
+         <Page title="Opsbrew">
+            <HomeBanner />
+            <HomeService />
+            {/* <HomeModernisation />
             <HomeKeyIndicators />
             <HomeTestimonials />
             <HomeAdfolksApproach />
             <HomeBusinessBenefits />
             <HomeCertification /> */}
-         {/* </Page> */}
+         </Page>
       </Layout>
    );
 }
