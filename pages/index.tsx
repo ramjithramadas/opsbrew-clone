@@ -24,7 +24,7 @@ export default function HomePage() {
          <Head>
             <title key="title"> Opsbrew</title>
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Opsbrew" key="og:title" />
+            <meta property="og:title" content="Opsbrew clone" key="og:title" />
             <meta property="og:image" content={metaLogo} key="og:image" />
             <meta property="og:url" content={`${process.env.HOST_URL}`} key="og:url" />
             <meta property="og:image:width" content="600" key="og:image:width" />
