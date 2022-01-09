@@ -219,3 +219,6 @@ export const backgroundEllipse = (
       <circle cx="163.872" cy="147.872" r="4.87226" fill="white" fill-opacity="0.15" />
    </svg>
 );
+
+export const metaLogo =
+   "https://scontent.fccj3-1.fna.fbcdn.net/v/t1.6435-9/98196023_132896258370685_7047876818308694016_n.png?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=YTzMitYK5GMAX-nI2S7&_nc_ht=scontent.fccj3-1.fna&oh=00_AT8bnY5quP718vWJRxVKO9yP4rBvZZ0InrKmQKUzBYb4zQ&oe=61FF12AA";
