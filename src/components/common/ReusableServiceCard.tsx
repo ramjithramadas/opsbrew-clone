@@ -7,7 +7,7 @@ type Props = {
 
 function ReusableServiceCard({ title, content }: Props) {
    return (
-      <div className="flex w-68">
+      <div className="flex justify-center w-68">
          <div className="w-12">{commonIcon}</div>
          <div className="py-4 pl-4">
             <p className="text-lg font-bold w-60">{title}</p>

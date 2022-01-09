@@ -43,7 +43,7 @@ const Header = () => {
                               </a>
                            </Link>
                         ))}
-                        <a className="w-24 text-center transition duration-500 ease-out border text-navBtn border-navBtn hover:text-white hover:bg-navBtn loginBtn">
+                        <a className="w-24 text-center transition duration-500 ease-out border text-navBtn border-navBtn hover:text-white hover:bg-navBtn login-btn">
                            Login
                         </a>
                      </div>
@@ -117,7 +117,7 @@ const Header = () => {
                            {item.label}
                         </a>
                      ))}
-                     <a className="w-32 text-center text-orange-600 border border-orange-600 loginBtn">Login</a>
+                     <a className="w-32 text-center text-orange-600 border border-orange-600 login-btn">Login</a>
                   </div>
                </div>
             )}

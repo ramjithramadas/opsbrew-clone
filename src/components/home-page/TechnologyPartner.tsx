@@ -1,5 +1,4 @@
-import { Carousel } from "react-responsive-carousel";
-import CloudProviders from "../common/CloudProviders";
+import CloudProviders from "./CloudProviders";
 import EllipseDots from "../common/EllipseDots";
 
 const TechnologyPartner = () => {

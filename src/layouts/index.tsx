@@ -7,7 +7,5 @@ type Props = {
 };
 
 export default function Layout({ variant = "main", children }: Props) {
-   console.log("layout");
-
    return <MainLayout>{children}</MainLayout>;
 }

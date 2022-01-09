@@ -1,6 +1,5 @@
 import ReusableServiceCard from "../components/common/ReusableServiceCard";
 import TechnologyPartner from "../components/home-page/TechnologyPartner";
-import { commonIcon } from "../constants/svgs";
 
 function HomeService() {
    const cardData = [
@@ -45,7 +44,7 @@ function HomeService() {
          <div className="z-0">
             <TechnologyPartner />
          </div>
-         <div className="z-10 hidden opacity-20 custom-shape-divider-bottom md:block">
+         <div className="z-10 hidden opacity-10 custom-shape-divider-bottom md:block">
             <svg width="1000%" height="325" viewBox="0 0 1440 325" fill="none" xmlns="http://www.w3.org/2000/svg">
                <path
                   d="M0 43.0247C70 15 263 -21 715 18.0001C1167 57.0002 1184.28 43.4823 1440 0.5V325H0V43.0247Z"

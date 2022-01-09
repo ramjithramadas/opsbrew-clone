@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.loginBtn {
+.login-btn {
    @apply px-3 py-2 text-xs font-bold tracking-wider rounded-full cursor-pointer;
 }
 
@@ -11,23 +11,11 @@
    position: absolute;
    bottom: 0;
    left: 0;
-   width: 100%;
-   overflow: hidden;
-   line-height: 0;
    height: 265px;
 }
 
 .custom-shape-divider-bottom svg {
    position: relative;
-   display: block;
    width: 100%;
    height: 350px;
-   transform: rotateY(0deg);
-   /* @media only screen and (min-width: 640px) {
-      width: calc(190% + 1.3px);
-   } */
-}
-
-.custom-shape-divider-bottom .shape-fill {
-   fill: #000;
 }
